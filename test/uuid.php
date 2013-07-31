@@ -1,16 +1,7 @@
 <?php
 use php_require\php_uuid\UUID;
 
-/*
-    Create a MockModule to load our module into for testing.
-*/
-
-if (!class_exists("MockModule")) {
-    class MockModule {
-        public $exports = array();
-    }
-}
-$module = new MockModule();
+$module = new stdClass();
 
 /*
     Now we "require()" the file to test.
