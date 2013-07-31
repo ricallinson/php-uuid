@@ -339,4 +339,4 @@ class UUID {
     }
 }
 
-$modules->exports = new UUID();
+$module->exports = new UUID();
