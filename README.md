@@ -1,4 +1,3 @@
-php-uuid
-========
+# Php-uuid
 
-PHP based UUID (RFC4122) Generator for use with php-require.
+This module is a [php-require](https://github.com/ricallinson/php-require) wrapper for the [PHP based UUID (RFC4122) Generator](https://github.com/fredriklindberg/class.uuid.php).
